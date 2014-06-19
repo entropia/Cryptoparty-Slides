@@ -23,11 +23,11 @@ body {
 }
 
 li{list-style-type:none;}
-li:before{content:"•"; font-size:200%; vertical-align:middle;}
+li:before{content:"•"; font-size:200%; vertical-align:middle; padding-right:5px;}
 
 .reveal {
   font-family: "Open Sans", sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 200;
   letter-spacing: -0.02em;
   color: #333333; }
