@@ -2,6 +2,7 @@
 *@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
 *@import url(http://fonts.googleapis.com/css?family=Geo:400,400italic|Press+Start+2P|Iceland|Quantico:400,400italic,700,700italic|Orbitron:400,500,700,900|Jura:400,300,500,600);
 */
+@import "Xolonium-Bold.otf";
 /**
  * Sky theme for reveal.js.
  *
@@ -19,7 +20,7 @@ body {
 }
 
 .reveal {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Xolonium-Bold", sans-serif;
   font-size: 36px;
   font-weight: 200;
   letter-spacing: -0.02em;
@@ -41,7 +42,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #333333;
-  font-family: "Jura", sans-serif;
+  font-family: "Xolonium-Bold", sans-serif;
   line-height: 0.9em;
   /*letter-spacing: -0.08em;*/
   text-transform: uppercase;
