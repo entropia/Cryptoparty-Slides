@@ -2,7 +2,10 @@
 *@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
 *@import url(http://fonts.googleapis.com/css?family=Geo:400,400italic|Press+Start+2P|Iceland|Quantico:400,400italic,700,700italic|Orbitron:400,500,700,900|Jura:400,300,500,600);
 */
-@import "Xolonium-Bold.otf";
+@font-face {
+     font-family: "Xolonium-Bold";
+     src: url("Xolonium-Bold.otf");
+}
 /**
  * Sky theme for reveal.js.
  *
@@ -20,8 +23,8 @@ body {
 }
 
 .reveal {
-  font-family: "Xolonium-Bold", sans-serif;
-  font-size: 36px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
   font-weight: 200;
   letter-spacing: -0.02em;
   color: #333333; }
@@ -46,11 +49,13 @@ body {
   line-height: 0.9em;
   /*letter-spacing: -0.08em;*/
   text-transform: uppercase;
-  text-shadow: none; }
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
 
+/*
 .reveal h1 {
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
-  font-size: 100px;
+  font-size: 60px;
+*/
 }
 
 /*********************************************
