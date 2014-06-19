@@ -23,7 +23,7 @@ body {
 }
 
 li{list-style-type:none;}
-li:before{content:"•"; font-size:200%; vertical-align:middle; padding-right:5px;}
+li:before{content:"•"; font-size:175%; vertical-align:middle; padding-right:5px;}
 
 .reveal {
   font-family: "Open Sans", sans-serif;
